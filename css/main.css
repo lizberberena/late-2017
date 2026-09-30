@@ -45,10 +45,10 @@ a:hover {
 #firstHalf {
     background-color: black;
     /*height: 612px;*/
-    height: calc(100vh - 95px);
-    height: -o-calc(100vh - 95px); /* opera */
-    height: -webkit-calc(100vh - 95px); /* google, safari */
-    height: -moz-calc(100vh - 95px); /* firefox */
+    height: calc(100vh - 154px);
+    height: -o-calc(100vh - 154px); /* opera */
+    height: -webkit-calc(100vh - 154px); /* google, safari */
+    height: -moz-calc(100vh - 154px); /* firefox */
 }
 
 #secondHalf {
