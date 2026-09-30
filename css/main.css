@@ -29,9 +29,9 @@ a {
     transition: all 100ms linear;
 }
 
-a:hover {
-    color: #f3c96e;
-    text-decoration: none;
+a:hover, a:active, a:focus {
+    color: #f3c96e!important;
+    text-decoration: none!important;
 }
 
 .newHover {
