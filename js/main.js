@@ -4,6 +4,7 @@ function revealPortfolio() {
     $('#main').show();
     
     $('a').addClass('newHover');
+    $('.site-navigation').addClass('newHover');
     $('.nav-toggle').removeClass('oldToggle');
     $('.nav-toggle').addClass('newToggle');
     $('.nav-menu').addClass('new-nav-mobile');
