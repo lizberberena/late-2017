@@ -46,6 +46,9 @@ a:hover {
     background-color: black;
     /*height: 612px;*/
     height: calc(100vh - 95px);
+    height: -o-calc(100vh - 95px); /* opera */
+    height: -webkit-calc(100vh - 95px); /* google, safari */
+    height: -moz-calc(100vh - 95px); /* firefox */
 }
 
 #secondHalf {
@@ -93,6 +96,9 @@ a:hover {
         padding: 4%;
         border: white solid 10px;
         height: calc(100vh - 140px);
+        height: -o-calc(100vh - 140px); /* opera */
+        height: -webkit-calc(100vh - 140px); /* google, safari */
+        height: -moz-calc(100vh - 140px); /* firefox */
     }
 
 }
