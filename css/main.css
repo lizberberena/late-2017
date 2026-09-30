@@ -6,6 +6,10 @@ body {
     background-color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li,
 p,
 h1,
