@@ -44,7 +44,8 @@ a:hover {
 
 #firstHalf {
     background-color: black;
-    height: 612px;
+    /*height: 612px;*/
+    height: calc(100vh - 95px);
 }
 
 #secondHalf {
@@ -91,6 +92,7 @@ a:hover {
     #landing2 {
         padding: 4%;
         border: white solid 10px;
+        height: calc(100vh - 140px);
     }
 
 }
